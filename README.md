@@ -1,4 +1,9 @@
 # BOTOMANIA 2020 - Reversi / Othello
+
+# Clarification
+- The first coordinate should be the row and the second one will be column
+- The timelimit for each move is 1 second
+
 ## Game Rules
 
 Reversi is a classic board game for two players. Reversi is a very dynamic board game; the board position can change dramatically with each move. So make your bot think twice before every move!
@@ -109,6 +114,3 @@ def make_move(board_rep, player_num):
     #
     return (coord1, coord2)
 ~~~
-
-# Clarification
-The first coordinate should be the row and the second one will be column
