@@ -47,7 +47,7 @@ Input example and the corresponding board representation :-
 
 <img src="board.png" width="300" height="300">
 
-For every input you have to give out two 0-indexed coordinated (on two seperate lines) telling where you want to place your piece.
+For every input you have to give out two 0-indexed numbers (row, column), (on two seperate lines) telling where you want to place your piece.
 
 Ouput example and the corresponding board representation:-
 
@@ -109,3 +109,6 @@ def make_move(board_rep, player_num):
     #
     return (coord1, coord2)
 ~~~
+
+# Clarification
+The first coordinate should be the row and the second one will be column
