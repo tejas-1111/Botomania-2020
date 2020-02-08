@@ -2,7 +2,7 @@
 
 # Clarification
 - The first coordinate should be the row and the second one will be column
-- The timelimit for each move is 1 second
+- The timelimit for each move is 5 second
 - 1 represents black and 2 represents white in the grid
 
 ## Game Rules
