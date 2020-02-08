@@ -3,6 +3,7 @@
 # Clarification
 - The first coordinate should be the row and the second one will be column
 - The timelimit for each move is 1 second
+- 1 in the grid represents black and 2 represents white
 
 ## Game Rules
 
@@ -41,8 +42,8 @@ Input example and the corresponding board representation :-
 0 0 0 0 0 0 0 0 0 0
 0 0 0 0 0 0 0 0 0 0
 0 0 0 0 0 0 0 0 0 0
-0 0 0 0 1 2 0 0 0 0
 0 0 0 0 2 1 0 0 0 0
+0 0 0 0 1 2 0 0 0 0
 0 0 0 0 0 0 0 0 0 0
 0 0 0 0 0 0 0 0 0 0
 0 0 0 0 0 0 0 0 0 0
@@ -79,8 +80,8 @@ The matrix is of the form:-
 0 0 0 0 0 0 0 0 0 0
 0 0 0 0 0 0 0 0 0 0
 0 0 0 0 0 0 0 0 0 0
-0 0 0 0 1 2 0 0 0 0
 0 0 0 0 2 1 0 0 0 0
+0 0 0 0 1 2 0 0 0 0
 0 0 0 0 0 0 0 0 0 0
 0 0 0 0 0 0 0 0 0 0
 0 0 0 0 0 0 0 0 0 0
